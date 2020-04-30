@@ -48,12 +48,12 @@ nav {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  min-height: 70vh;
+  min-height: 75vh;
   .hero-container {
     display: inline-block;
     padding: 7% 0 0 5%;
-    height: 400px;
-    overflow: hidden;
+    height: 500px;
+    overflow: visible;
     h5 {
       text-transform: uppercase;
       font-size: 14px;
@@ -83,6 +83,7 @@ nav {
 #pro-perspective {
   margin: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
   width: 80%;
   text-align: center;
   .spacing {
@@ -101,9 +102,33 @@ nav {
     text-transform: capitalize;
     margin-bottom: 15px;
   }
+  p{
+    color: #666666;
+    font-weight: 300;
+  }
   hr {
     border: 1px solid rgb(69, 122, 123);
     width: 75px;
     margin-top: 30px;
+  }
+}
+
+#count {
+  background: #ebebeb;
+  margin-bottom: 100px;
+
+  h2 {
+    font-size: 50px;
+  }
+  p {
+    text-transform: uppercase;
+  }
+  .count-container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    padding: 60px 0 60px 0;
   }
 }
