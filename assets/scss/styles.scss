@@ -132,3 +132,23 @@ nav {
     padding: 60px 0 60px 0;
   }
 }
+
+#about-section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+  h2 {
+    text-transform: capitalize;
+    padding-bottom: 15px;
+  }
+  .img {
+    display: inline-block;
+    max-width: 100%;
+  }
+  .about-me {
+    display: inline-block;
+    float: right;
+    width: 50%;
+    padding-top: 100px;
+  }
+}
