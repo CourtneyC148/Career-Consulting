@@ -3,8 +3,6 @@
 
 /* media queries */
 
-/* desktop min-width 960px*/
-
 /* desktop max-width 905px*/
 @media only screen and (max-width: 905px) {
   #pro-perspective {
@@ -22,7 +20,8 @@
     }
   }
 }
-/* mobile devices */
+
+/* mobile devices max-width 650px */
 @media only screen and (max-width: 650px) {
   
   #about-section {
@@ -35,6 +34,7 @@
   }
 }
 
+/* mobile devices max-width 580px */
 @media only screen and (max-width: 580px) {
   #count {
     .count-container {
@@ -50,6 +50,7 @@
   }
 }
 
+/* mobile devices max-width 480px */
 @media only screen and (max-width: 480px) {
   #nav-bar {
     padding: 25px 20px !important;
@@ -84,7 +85,6 @@
   }
 }
 
-
 /* globals */
 body {
   line-height: 1.2;
@@ -99,7 +99,7 @@ h2 {
 p {
   color: #555555;
 }
-
+/* nav bar */
 #nav-bar {
   padding: 25px 75px;
   background-color: #ffffff;
@@ -122,8 +122,13 @@ p {
   a {
     text-decoration: none;
     color: #555555;
+  }
+  a :hover {
+    color: rgb(69, 122, 123);
+    transition: .5s;
   }   
 }
+
 /* hero section */
 #hero {
   background: url(https://i.postimg.cc/Bn0NsP81/rsz-hero-img-3.jpg);
@@ -163,6 +168,7 @@ p {
     }
   }
 }
+
 /* professional perspective section */
 #pro-perspective {
   margin: auto;
@@ -199,6 +205,7 @@ p {
     margin-top: 30px;
   }
 }
+
 /* count section */
 #count {
   background: #ebebeb;
@@ -219,6 +226,7 @@ p {
     padding: 60px 0 60px 0;
   }
 }
+
 /* about me sectio */
 #about-section {
   width: 80%;
@@ -243,6 +251,7 @@ p {
     padding: 100px 0 0 20px;
   }
 }
+
 /* ready to connect section */
 #connect-section {
   background: rgba(40,50,74,1);
@@ -268,6 +277,7 @@ p {
     padding: 20px 80px;
   }
 }
+
 /* footer section */
 footer {
   padding: 30px 0 30px 0;
