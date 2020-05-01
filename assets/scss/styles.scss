@@ -12,10 +12,13 @@
       grid-template-columns: auto !important;
     }
     .box{
-      padding: 15px 0 15px 0;
+      padding: 20px 0;
     }
     br {
       display: none;
+    }
+    hr {
+      width: 100% !important;
     }
   }
 }
@@ -23,7 +26,7 @@
 @media only screen and (max-width: 650px) {
   
   #about-section {
-    margin-bottom: 200px !important;
+    margin-bottom: 250px !important;
     text-align: center;
     .about-me {
       width: 100% !important;
@@ -42,10 +45,45 @@
     }
   }
   #connect-section {
-    padding-left: 40px !important;
-    padding-right: 40px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  #nav-bar {
+    padding: 25px 20px !important;
+  }
+  #hero {
+    text-align: center;
+    .hero-container {
+      padding: 100px 20px !important;
+      h1 {
+        font-size: 30px !important;
+      }
+      br {
+        display: none;
+      }
+      a {
+        padding: 15px 40px !important;
+      }
+    }
+  }
+  #pro-perspective {
+    width: 85%;
+  }
+  #connect-section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    h2 {
+      font-size: 30px !important;
+    }
+    a {
+      padding: 15px 40px !important;
+    }
+  }
+}
+
 
 /* globals */
 body {
@@ -62,7 +100,7 @@ p {
   color: #555555;
 }
 
-nav {
+#nav-bar {
   padding: 25px 75px;
   background-color: #ffffff;
   h4 {
@@ -86,7 +124,7 @@ nav {
     color: #555555;
   }   
 }
-
+/* hero section */
 #hero {
   background: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
   background-size: cover;
@@ -96,7 +134,7 @@ nav {
   min-height: 75vh;
   .hero-container {
     display: inline-block;
-    padding: 10% 0 0 5%;
+    padding: 150px 0 0 75px;
     height: 500px;
     overflow: visible;
     h5 {
@@ -113,6 +151,7 @@ nav {
       font-size: 16px;
       padding-bottom: 40px;
     }
+    /* call to action */
     a {
       text-decoration: none;
       border: 1px solid rgb(69, 122, 123);
@@ -124,7 +163,7 @@ nav {
     }
   }
 }
-
+/* professional perspective section */
 #pro-perspective {
   margin: auto;
   margin-top: 100px;
@@ -160,7 +199,7 @@ nav {
     margin-top: 30px;
   }
 }
-
+/* count section */
 #count {
   background: #ebebeb;
   margin-bottom: 100px;
@@ -180,7 +219,7 @@ nav {
     padding: 60px 0 60px 0;
   }
 }
-
+/* about me sectio */
 #about-section {
   width: 80%;
   margin: auto;
@@ -203,7 +242,7 @@ nav {
     padding: 100px 0 0 20px;
   }
 }
-
+/* ready to connect section */
 #connect-section {
   background: rgba(40,50,74,1);
   text-align: center;
@@ -217,6 +256,7 @@ nav {
     color: #ffffff;
     padding-bottom: 35px;
   }
+  /* call to action */
   a {
     text-decoration: none;
     border: 1px solid rgb(69, 122, 123);
@@ -227,7 +267,7 @@ nav {
     padding: 20px 80px;
   }
 }
-
+/* footer section */
 footer {
   padding: 30px 0 30px 0;
   text-align: center;
